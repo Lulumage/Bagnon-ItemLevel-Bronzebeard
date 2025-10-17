@@ -17,18 +17,7 @@ Copy that folder directly into your AddOns directory:
 <YourGameFolder>/Interface/AddOns/Bagnon_ItemInfo
 
 
-Check the Folder Structure
-The folder should look like this:
 
-Bagnon_ItemInfo
-├── Bagnon_ItemInfo.toc
-├── Main.lua
-├── Options.lua
-├── Defaults.lua
-├── Dispatcher.lua
-├── Embeds.xml
-├── Locale/
-└── Libs/
 
 
 ⚠️ Make sure you don’t end up with a double folder path like
