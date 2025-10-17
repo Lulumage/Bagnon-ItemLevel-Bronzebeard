@@ -3,7 +3,6 @@
 
 Bagnon_ItemInfo adds **item level tags**, **BoE highlights**, **rarity coloring**, and **gray-item desaturation** directly to your Bagnon inventory frames — lightweight and performance-friendly.
 
-
 <img width="559" height="354" alt="image" src="https://github.com/user-attachments/assets/e896960e-04b5-414e-b632-4cebc367a9df" />
 
 ---
@@ -19,11 +18,11 @@ Bagnon_ItemInfo adds **item level tags**, **BoE highlights**, **rarity coloring*
 
 ### 📂 2. Extract the Files
 1. Open the downloaded ZIP file.  
-2. Inside, locate the folder named **`Bagnon_ItemInfo`**.  
-3. Copy that entire folder into your game’s AddOns directory:
-
+2. Inside, you’ll find a folder named **`Bagnon_ItemInfo-main`**.  
+3. **Rename it to:**  
+Bagnon_ItemInfo
+4. Move that renamed folder into your game’s AddOns directory:  
 <YourGameFolder>/Interface/AddOns/
-
 
 
 ---
