@@ -1,0 +1,24 @@
+## Interface: 30300
+
+## Title: |cff20ff20Bagnon ItemLevel Ascension|r
+## Notes: |cffaaaaaaOriginally by|r |cff88ccffLars Norberg|r |n|cffaaaaaaAdapted and customized by|r |cffffcc00LuluMage (Bronzebeard Edition)|r. |n|nDisplays |cffffd700item levels|r, |cff00ff00BoE/BoU status|r, and highlights |cffff5050gray-quality items|r in Bagnon bags.
+## Version: 1.0.1 (Ascension)
+## Author: Lars Norberg & LuluMage
+## X-Category: Inventory
+## X-License: MIT (Modified)
+
+## RequiredDeps: Bagnon
+## SavedVariables: BagnonItemInfo_DB
+
+# Core
+Dispatcher.lua
+Defaults.lua
+Main.lua
+
+# Modules
+Modules\Garbage.lua
+Modules\Itembind.lua
+Modules\Itemlevel.lua
+
+# Options Panel
+Options.lua
