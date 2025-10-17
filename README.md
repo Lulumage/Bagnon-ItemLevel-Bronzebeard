@@ -46,5 +46,22 @@ You can enable or disable:
 
 ---
 
-## 📁 File Overview
+
+---
+
+## 🧠 Credits
+
+- **Original Framework:** Lars Norberg  
+- **Ascension Edition:** Lulumage
+
+---
+
+## 📜 License
+
+**MIT License**
+
+You are free to modify, redistribute, or include this addon in other UI packs,  
+as long as proper credit is given.
+
+
 
