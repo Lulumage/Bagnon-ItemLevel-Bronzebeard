@@ -1,67 +1,61 @@
-# Bagnon-ItemLevel-Bronzebeard
-An improved version of **Bagnon ItemInfo** made for Ascension/Bronzebeard client.
+⚙️ Installation Steps
 
-# 🧩 Bagnon ItemLevel Ascension (Bronzebeard Edition)
+Download the Addon
 
-An enhanced and lightweight version of **Bagnon ItemInfo**, rebuilt for **Wrath of the Lich King / Ascension (Bronzebeard)**.
+Go to the repository: https://github.com/Lulumage/Bagnon_ItemInfo
 
----
+Click Code → Download ZIP to get the latest version.
 
-## ✨ Features
+Extract the Files
 
-- 🧙 **Item Levels:** Displays item levels on equippable items.  
-- 💚 **BoE Tag:** Adds a green “BoE” label for *Binds when Equipped* items.  
-- 🎨 **Rarity Coloring:** Option to colorize the item level text based on item rarity (uncommon, rare, epic, etc).  
-- 🩶 **Desaturate Junk:** Grays out poor-quality (gray) items for better visibility.  
-- ⚙️ Fully compatible with **Wrath (3.3.5a)** and **Ascension clients**.  
-- 💡 Built with safe, event-driven logic — no direct hooks or taints.
+Open the downloaded ZIP file.
 
----
+Inside, locate the folder named Bagnon_ItemInfo.
 
-## ⚙️ In-Game Options
+Copy that folder directly into your AddOns directory:
 
-Accessible via:
-ESC → Interface → AddOns → Bagnon ItemLevel Ascension
+<YourGameFolder>/Interface/AddOns/Bagnon_ItemInfo
 
 
-You can enable or disable:
+Check the Folder Structure
+The folder should look like this:
 
-| Option | Description |
-|:-------|:-------------|
-| **Show item levels** | Displays numeric item levels on top-left of icons. |
-| **Show unbound items (BoE)** | Adds a green “BoE” tag for tradable gear. |
-| **Colorize item level text by rarity** | Changes text color to match item quality. |
-| **Desaturate gray items** | Fades poor-quality (junk) items for better bag readability. |
-
-> ⚠️ **Note:**  
-> When toggling options, changes may require **closing and reopening your Bagnon bags** to refresh the display.
-
----
-
-## 🧩 Compatibility
-
-- ✅ Wrath of the Lich King (3.3.5a)  
-- ✅ Ascension (Bronzebeard / Malfurion)  
+Bagnon_ItemInfo
+├── Bagnon_ItemInfo.toc
+├── Main.lua
+├── Options.lua
+├── Defaults.lua
+├── Dispatcher.lua
+├── Embeds.xml
+├── Locale/
+└── Libs/
 
 
----
+⚠️ Make sure you don’t end up with a double folder path like
+AddOns/Bagnon_ItemInfo/Bagnon_ItemInfo/.
 
+Enable in Game
 
----
+Launch your Ascension / Bronzebeard client.
 
-## 🧠 Credits
+At the character selection screen, click the AddOns button.
 
-- **Original Framework:** Lars Norberg  
-- **Ascension Edition:** Lulumage
+Find Bagnon_ItemInfo and make sure it’s checked.
 
----
+If the game shows it as “Out of Date,” tick Load out of date AddOns.
 
-## 📜 License
+Configure In-Game
 
-**MIT License**
+Go to Esc → Interface → AddOns → Bagnon ItemLevel Ascension (or similar).
 
-You are free to modify, redistribute, or include this addon in other UI packs,  
-as long as proper credit is given.
+You can enable or disable features such as:
 
+✅ Show item levels
 
+✅ Display “BoE” tag for Bind on Equip items
 
+✅ Color item level text by rarity
+
+✅ Desaturate gray (trash) items
+
+You may need to close and reopen your bags to apply changes.
