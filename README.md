@@ -3,6 +3,9 @@
 
 Bagnon_ItemInfo adds **item level tags**, **BoE highlights**, **rarity coloring**, and **gray-item desaturation** directly to your Bagnon inventory frames — lightweight and performance-friendly.
 
+
+<img width="559" height="354" alt="image" src="https://github.com/user-attachments/assets/e896960e-04b5-414e-b632-4cebc367a9df" />
+
 ---
 
 ## ⚙️ Installation Guide
